@@ -3,10 +3,11 @@
 import { useMutation, useQuery } from "convex/react";
 import { api } from "../convex/_generated/api";
 import ConvexClientProvider from "@/components/ConvexClientProvider";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <ConvexClientProvider>
+    <>
       <header className="sticky top-0 z-10 bg-background p-4 border-b-2 border-slate-200 dark:border-slate-800 flex flex-row justify-between items-center">
         Convex + Next.js
       </header>
@@ -14,7 +15,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold text-center">Convex + Next.js</h1>
         <Content />
       </main>
-    </ConvexClientProvider>
+    </>
   );
 }
 
