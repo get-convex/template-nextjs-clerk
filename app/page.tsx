@@ -71,6 +71,13 @@ function Content() {
         </code>{" "}
         to change your frontend
       </p>
+      <p>
+        See the{" "}
+        <Link href="/server" className="underline hover:no-underline">
+          /server route
+        </Link>{" "}
+        for an example of loading data in a server component
+      </p>
       <div className="flex flex-col">
         <p className="text-lg font-bold">Useful resources:</p>
         <div className="flex gap-2">
