@@ -12,6 +12,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.25.0",
     "convex": "^1.23.0",
     "next": "15.2.3",
     "react": "^19.0.0",
